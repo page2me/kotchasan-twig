@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<meta charset=utf-8><link href="https://fonts.googleapis.com/css?family=Itim&subset=thai,latin" rel="stylesheet" type="text/css"><meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<style>
+			html {height:100%;width:100%}
+			body {height:100%;width:100%;margin:0;font-family:Itim, Tahoma, Loma;color:#666;}
+			.warper{display:inline-block;text-align:center;height:50%;}
+			.warper::before{content:"";display:inline-block;height:100%;vertical-align:middle;width:0px;}
+		</style>
+	</head>
+	<body>
+		<div class="warper" style="display:block">
+			<div class="warper">
+				<div>
+					<img src="{{ resource_url }}/img/kotchasan.png" style="width:100px" alt="Kotchasan PHP Framework">
+					<h1 style="line-height:1.8;margin:0;text-shadow:3px 3px 0 rgba(0,0,0,0.1);font-weight:normal;">คชสาร (Kotchasan)</h1>
+					Kotchasan + Twig (template engine) Demo
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
