@@ -1,12 +1,9 @@
 # kotchasan-twig
 Kotchasan + Twig (template engine) Demo
 
-ตัวอย่างการใช้งาน Kotchasan PHP Framework ร่วมกับ Twig
+ตัวอย่างการใช้งาน Kotchasan Web Framework ร่วมกับ Twig ซึ่งจะเป็นการติดตั้งผ่าน composer
 
-การติดตั้ง
-
-`php composer.phar install`
-
-หรือ
-
-`php composer install`
+```
+cd /path/to/kotchasan-twig/
+composer update
+```
