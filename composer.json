@@ -1,14 +1,14 @@
 {
-    "name": "vendor/xcms",
-    "description": "Description of project xcms.",
-    "authors": [
-        {
-            "name": "Goragod Wiriya",
-            "email": "admin@goragod.com"
-        }
-    ],
-    "require": {
-        "twig/twig": "dev-master",
-        "goragod/kotchasan": "dev-master"
+  "name": "vendor/xcms",
+  "description": "Description of project xcms.",
+  "authors": [
+    {
+      "name": "Goragod Wiriya",
+      "email": "admin@goragod.com"
     }
+  ],
+  "require": {
+    "twig/twig": "dev-master",
+    "goragod/kotchasan": "dev-master"
+  }
 }
